@@ -59,6 +59,24 @@ a{
 }
 
 .content{
-
+max-width: 650px;
+margin: auto;
+font-size: 20px;
+font-weight: 100;
 }
 
+figure{
+    padding: 0;
+    margin: 40px 0;
+    font-size: 12px;
+}
+
+figure>img{
+    width: 100%;
+}
+
+.footer{
+    height: 100px;
+    background-color: #111;
+    border-top: 5px solid red;
+}
